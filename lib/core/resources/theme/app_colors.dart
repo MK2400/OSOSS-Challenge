@@ -7,7 +7,12 @@ class AppColors {
 
   static Color appBarColor =const Color(0xFF63b2f2);
 
-  static Color warning =  Colors.red;
+  static Color warning =  Colors.redAccent;
+
+  static Color lightRed = const Color(0xFFf26363);
+  static Color lightCyan = const Color(0xFF63b2f2);
+  static Color darkPurple = const Color(0xFF0d47a1);
+
 
   static Color slidMenuBarBackgroundColor = const Color(0xFF203449);
 

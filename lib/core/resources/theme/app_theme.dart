@@ -7,7 +7,6 @@ class AppTheme {
       primaryColor: AppColors.primaryColor,
 
       //appbar theme
-
       appBarTheme: AppBarTheme(
         color: AppColors.appBarColor,
       ),

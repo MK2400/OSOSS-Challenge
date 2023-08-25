@@ -7,6 +7,8 @@ import 'core/routes/router.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+  SystemChrome.setPreferredOrientations(
+      [ DeviceOrientation.portraitUp]);
   runApp(const MyApp());
 }
 

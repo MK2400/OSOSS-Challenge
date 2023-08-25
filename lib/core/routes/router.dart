@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:ososs/core/resources/app_strings.dart';
 import 'package:ososs/core/routes/routes.dart';
+import 'package:ososs/features/animations/views/animations_view.dart';
 import 'package:ososs/features/home/views/home_view.dart';
 import 'package:ososs/features/splash_screen/views/splash_view.dart';
 
@@ -17,6 +18,11 @@ class AppRouter {
       case AppRoutes.homeScreen:
         {
           return MaterialPageRoute(builder: (_) => const HomeView());
+        }
+
+      case AppRoutes.animationsScreen:
+        {
+          return MaterialPageRoute(builder: (_) =>  AnimationsView(name: arguments['name']));
         }
       default:
         return MaterialPageRoute(

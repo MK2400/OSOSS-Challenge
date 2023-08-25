@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ososs/core/resources/theme/app_colors.dart';
 
-class SimpleButton extends StatelessWidget {
+class CustomButton extends StatelessWidget {
   final Color? backgroundColor;
   final VoidCallback? onPressed;
   final String? title;
@@ -9,7 +9,7 @@ class SimpleButton extends StatelessWidget {
   final Widget? child;
   final double? height;
 
-  const SimpleButton(
+  const CustomButton(
       {Key? key,
       this.backgroundColor,
       this.height,
@@ -22,7 +22,10 @@ class SimpleButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
-    return SizedBox(
+    return Container(
+      constraints: const BoxConstraints(
+        maxWidth: 400
+      ),
       height: height,
       width: size.width,
       child: Padding(
@@ -31,7 +34,7 @@ class SimpleButton extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             elevation: 0,
             backgroundColor: backgroundColor ?? Theme.of(context).primaryColor,
-            padding: const EdgeInsets.all(12),
+            padding:  const EdgeInsets.all(15),
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(isRounded! ? 10 : 0)),
           ),

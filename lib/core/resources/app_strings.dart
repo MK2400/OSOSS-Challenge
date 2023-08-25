@@ -6,6 +6,7 @@ class AppStrings {
   static const clearText = "Clear text";
   static const goToPage1 = "Go to page 1";
   static const goToPage2 = "Go to page 2";
+  static const pleaseEnterYourName = "Please enter your name";
 
   // error handler
   static const String badRequestError = "bad_request_error";
