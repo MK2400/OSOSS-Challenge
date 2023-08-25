@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primaryColor = Color(0xFF0AC0EE);
+  static const Color primaryColor = Color(0xFF63b2f2);
 
-  static Color accentColor = const Color(0xFF007CB0);
+  static Color accentColor = const Color(0xFF0d47a1);
 
-  static Color appBarColor =const Color(0xFF2B4663); //const Color(0xFF2B4663);
+  static Color appBarColor =const Color(0xFF63b2f2);
+
+  static Color warning =  Colors.red;
 
   static Color slidMenuBarBackgroundColor = const Color(0xFF203449);
 

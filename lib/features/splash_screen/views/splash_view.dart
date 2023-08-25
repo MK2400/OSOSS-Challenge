@@ -3,6 +3,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:ososs/core/resources/app_constants.dart';
+import 'package:ososs/core/routes/routes.dart';
 
 
 
@@ -23,7 +24,7 @@ class _SplashViewState extends State<SplashView>
   }
 
   void _goNext() async {
-   // Navigator.pushReplacementNamed(context, AppRoutes.homeScreen);
+    Navigator.pushReplacementNamed(context, AppRoutes.homeScreen);
   }
 
   @override

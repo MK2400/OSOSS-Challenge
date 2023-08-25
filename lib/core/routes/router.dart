@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:ososs/core/resources/app_strings.dart';
 import 'package:ososs/core/routes/routes.dart';
+import 'package:ososs/features/home/views/home_view.dart';
 import 'package:ososs/features/splash_screen/views/splash_view.dart';
 
 class AppRouter {
@@ -11,6 +12,11 @@ class AppRouter {
       case AppRoutes.splashScreen:
         {
           return MaterialPageRoute(builder: (_) => const SplashView());
+        }
+
+      case AppRoutes.homeScreen:
+        {
+          return MaterialPageRoute(builder: (_) => const HomeView());
         }
       default:
         return MaterialPageRoute(
