@@ -11,7 +11,7 @@ It contains the following Screens:
 
 ## Demo
 
-You can test the app by using on of the following platforms:
+You can test the app by using one of the following platforms:
 
 - **Web** (live demo)   
   [page link](https://mk2400.github.io/OSOSS-Challenge/page/#/)
