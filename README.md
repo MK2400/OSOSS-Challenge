@@ -1,16 +1,21 @@
-# ososs
+# About this app
 
-A new Flutter project.
+This app is a flutter technical test from **OSOSS**
 
-## Getting Started
+It contains the following Screens:
 
-This project is a starting point for a Flutter application.
+- Splash screen
+- Home screen
+- Animations screen
+- Pokemon's screen
 
-A few resources to get you started if this is your first Flutter project:
+## Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You can test the app by using on of the following platforms:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Web** (live demo)   
+  [page link](https://mk2400.github.io/OSOSS-Challenge/page/#/)
+- **Android**   
+  [APK link](https://drive.google.com/file/d/1_5b61RlYd0P7zy1vxMvhUXzH_ZskSDnt/view?usp=drive_link)
+- **Windows**   
+  [EXE link](https://drive.google.com/file/d/1_dvhtyROo_EshDADnfrxmnetuieFap8W/view?usp=drive_link)  ( Requires Windows 10 or higher)
