@@ -19,6 +19,7 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leadingWidth: 25,
         title: const Text(AppStrings.home),
       ),
       body: SafeArea(
@@ -90,8 +91,10 @@ class _HomeViewState extends State<HomeView> {
                     title:AppStrings.goToPage1 ,),
                 const SizedBox(height: 15,),
                 CustomButton(
-                  onPressed: () {},
-                  title: AppStrings.goToPage1,
+                  onPressed: () {
+                    Navigator.pushNamed(context, AppRoutes.pokemonsScreen);
+                  },
+                  title: AppStrings.goToPage2,
                 ),
               ],
             ),

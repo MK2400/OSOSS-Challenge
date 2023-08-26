@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ososs/core/resources/app_strings.dart';
 import 'package:ososs/core/resources/theme/app_colors.dart';
 import 'package:ososs/core/shared_widgets/custom_shape.dart';
 import 'package:ososs/features/animations/models/animtion_model.dart';
@@ -19,8 +20,8 @@ class AnimationsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leadingWidth: 20,
-        title: const Text('Animations'),
+        leadingWidth: 25,
+        title:  const Text(AppStrings.animations),
       ),
       body: Padding(
         padding: const EdgeInsets.all(12.0),

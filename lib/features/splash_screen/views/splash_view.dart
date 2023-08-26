@@ -43,7 +43,6 @@ class _SplashViewState extends State<SplashView>
   Widget build(BuildContext context) {
     Size size=MediaQuery.sizeOf(context);
     return  Scaffold(
-        // backgroundColor: ColorManager.primary,
         body: Center(
           child: SizedBox(
               width: size.width*.6,
@@ -53,17 +52,3 @@ class _SplashViewState extends State<SplashView>
   }
 }
 
-/*
-IgnorePointer(
-      child: SizedBox.expand(
-        child: FittedBox(
-          fit: BoxFit.fill,
-          child: SizedBox(
-            width: _controller.value.size.width,
-            height: _controller.value.size.height,
-            child: VideoPlayer(_controller),
-          ),
-        ),
-      ),
-    )*/
-/* */

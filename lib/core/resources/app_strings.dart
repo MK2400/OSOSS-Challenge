@@ -7,18 +7,24 @@ class AppStrings {
   static const goToPage1 = "Go to page 1";
   static const goToPage2 = "Go to page 2";
   static const pleaseEnterYourName = "Please enter your name";
+  static const pokemons = "Pokemons";
+  static const thereIsNoPokemons = "There is no Pokemon`s";
+  static const animations = "Animations";
 
   // error handler
-  static const String badRequestError = "bad_request_error";
-  static const String noContent = "no_content";
-  static const String forbiddenError = "forbidden_error";
-  static const String unauthorizedError = "unauthorized_error";
-  static const String notFoundError = "not_found_error";
-  static const String conflictError = "conflict_error";
-  static const String internalServerError = "internal_server_error";
+  static const String somethingWentWrong = "Something went wrong!..";
+  static const String badRequestError = "Bad Request";
+  static const String noContent = "Not Found Error";
+  static const String unauthorizedError = "Unauthorized Message";
+  static const String serviceUnavailableError = "Service Unavailable";
+  static const String forbiddenError = "Forbidden Error ";
+  static const String notFoundError = "Not Found Error Message";
+  static const String conflictError = "Conflict Error ";
+  static const String internalServerError = "Internal Server Error ";
   static const String unknownError = "unknown_error";
   static const String timeoutError = "timeout_error";
   static const String defaultError = "default_error";
   static const String cacheError = "cache_error";
-  static const String noInternetError = "no_internet_error";
+  static const String noInternetError = "Internet Connection Error, Please check your network and try again";
+  static const String internetError = "Please try again";
 }

@@ -4,6 +4,7 @@ import 'package:ososs/core/resources/app_strings.dart';
 import 'package:ososs/core/routes/routes.dart';
 import 'package:ososs/features/animations/views/animations_view.dart';
 import 'package:ososs/features/home/views/home_view.dart';
+import 'package:ososs/features/pokemons/views/pokemons_view.dart';
 import 'package:ososs/features/splash_screen/views/splash_view.dart';
 
 class AppRouter {
@@ -23,6 +24,10 @@ class AppRouter {
       case AppRoutes.animationsScreen:
         {
           return MaterialPageRoute(builder: (_) =>  AnimationsView(name: arguments['name']));
+        }
+        case AppRoutes.pokemonsScreen:
+        {
+          return MaterialPageRoute(builder: (_) =>  const PokemonView());
         }
       default:
         return MaterialPageRoute(
